@@ -33,7 +33,7 @@ function cek_user(usr, pwd) {
                 pesan('Berhasil Login!', 'success', 'true');
                 $("#login").text("Login");
             } else {
-                pesan('User & Password salah!', 'error', 'false');
+                pesan('User / Password salah!', 'error', 'false');
                 $("#login").text("Login");
 
             }
